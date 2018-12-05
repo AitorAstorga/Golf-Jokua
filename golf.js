@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<canvas id="myCanvas" width="" height=""></canvas>
-<style>
-    canvas {
-        background:black;
-    }
-</style>
-<script>
+function inicio (){
     myCanvas.width = window.innerWidth*99/100;
     myCanvas.height = window.innerHeight*97/100;
     var canvas = document.getElementById("myCanvas");
@@ -64,4 +56,4 @@
         }
     }
     setInterval(draw, 10);
-</script>
+}
